@@ -1,0 +1,46 @@
+.sec-features, .sec-onboarding .intro, .sec-benefits .intro {
+    width: 100%;
+    max-width: 992px;
+    margin: auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(39,48,63) ;
+  }
+  .home-img {
+    margin-left: 16rem;
+  }
+  .a{
+    color:  rgb(39,48,63) ;;
+  }
+
+  #boton{
+    color: rgb(255, 255, 255);
+    background-color: rgb(39,48,63);
+    font-size: 1rem;
+    padding: 0px 30px 10px;
+    border-radius: 10%;
+    text-align: center;
+    margin-left: 45%;
+    margin: 10%;
+    margin-bottom: 10%;
+}
+
+.main-menu li {
+  font-size: 0.75rem;
+  list-style: none;
+  display: inline;
+  margin-right: 2rem;
+  margin-left: 5%;
+  margin: 15%;
+  color: rgb(39,48,63) ;
+}
+.main-menu li a {
+  color: rgb(39,48,63) ;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
+}
