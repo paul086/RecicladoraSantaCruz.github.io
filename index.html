@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
+     crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+     <link rel="stylesheet" href="./css/style.css">
+</head>
+  <nav class="nav">
+    <div class="logo">
+      <a href="index.html">
+        <img src="./assets/img/logo2.png" alt="logo" />
+      </a>
+    </div>
+    <div class="menu d-none d-md-block">
+      <ul class="main-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="./html/Nosotros.html">Nosotros</a></li>
+        <li><a href="./html/info.html">Info</a></li>
+        <li><a href="./html/contacto.html">Contacto</a></li>
+        <li><a href="./html/formulario.html">Formulario</a></li>
+      </ul>
+    </div>
+    <div class="get-started">
+      <button id="facebookButton" class="btn-sec-s">Loguearse</button>
+      <button id="WhatsApp" class="btn-main-s">Get started</button>
+    </div>
+  </nav>
+<div class="ratio ratio-21x9">
+  <iframe src="./assets/video/planta-recicladora.mp4"  title="YouTube video" muted ></iframe>
+</div>
+
+  <section class="sec-home">
+    <div class="home-cta">
+      <div class="cta-text">
+        <span>Noticias</span>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+      <h2 class="home-title h1">Aún estas a tiempo de salvar el Mundo!!!</h2>
+      <p class="home-description">
+        Ingresa tu correo y nosotros te contactaremos.
+      </p>
+      <div class="lead-magnet row align-items-center">
+        <div class="col input-col">
+          <input
+            type="text"
+            class="form-control input-text"
+            placeholder="Email address"
+          />
+        </div>
+        <div class="col">
+          <button id="sendEmailButton" class="btn-main">Ingresa</button>
+        </div>
+      </div>
+    </div>
+    <div class="home-img d-none d-md-block">
+      <img onmouseover="reproducirAudio3()" src="./assets/img/frases_para_concienciar_del_reciclaje_1495_0_600.webp" alt="wallet" />
+    </div>
+  </section>
+  <section class="sec-features">
+    <div class="intro">
+      <h3>Actividades realizadas</h3>
+      <p>
+        En esta Empresa nos dedicamos al cuidado de la Naturaleza! Vos podes ayudarnos!
+      </p>
+    </div>
+    <div class="features">
+      <div class="text">
+        <div class="feature">
+          <span class="icon-sm">
+            <i class="bi bi-graph-up"></i>
+          </span>
+          <div class="description">
+            <h4 class="description-title">Administra tu Portafolio</h4>
+            <p class="description-text">
+              Podes reciclar y ganar dinero.
+            </p>
+          </div>
+        </div>
+        <div class="feature">
+          <span class="icon-sm">
+            <i class="bi bi-calendar"></i>
+          </span>
+          <div class="description">
+            <h4 onmouseover="reproducirAudio()" class="description-title">El tiempo no se recupera</h4>
+            <p class="description-text">
+              Consegui una visita guiada para que puedas conocer nuestro Trabajo.
+            </p>
+          </div>
+        </div>
+        <div class="feature">
+          <span class="icon-sm">
+            <i class="bi bi-phone"></i>
+          </span>
+          <div class="description">
+            <a href="https://play.google.com/store/apps/details?id=com.eym.cleanspotapp">
+            <h4 class="description-title">Descarga la App</h4>
+          </a>
+            <p class="description-text">
+              Con esta App podes descubrir en tiempo real cuantos arboles vamos salvando!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="image d-none d-md-block">
+        <img onmouseover="reproducirAudio2()" src="./assets/img/naturaleza.jpg" alt="chart" />
+      </div>
+    </div>
+  </section>
+  <section class="sec-kpis row">
+    <div class="kpi col-md">
+      <span class="number">547B</span>
+      <span class="desc">Botellas de Plástico Recicladas</span>
+    </div>
+    <div class="kpi col-md">
+      <span class="number">100+</span>
+      <span class="desc">Departamentos Libres de Basura</span>
+    </div>
+    <div class="kpi col-md">
+      <span class="number">89+M</span>
+      <span class="desc">Arboles salvados</span>
+    </div>
+  </section>
+  <section class="sec-onboarding">
+    <div class="steps">
+      <div class="icon-desc">
+        <a href="https://www.facebook.com/PabloE86">
+        <i class="bi bi-facebook"></i>
+        <h4 class="title">Chatea!</h4>
+        </a>
+      </div>
+      <div class="step-separator"></div>
+      <div class="icon-desc">
+        <a href="contacto.html#seccion_ancla">
+        <i class="bi bi-pin-map"></i>
+
+        <h4 class="title">Ubicación</h4>
+      </a>
+      </div>
+      <div class="step-separator"></div>
+      <div class="icon-desc">
+        <i class="bi bi-trash"></i>
+        <h4 onmouseover="alert('Gracias por visitar la Página')" class="title">Recicla ahora!</h4>
+      </div>
+    </div>
+  </section>
+  
+ 
+  <script src="./js/script2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
+    crossorigin="anonymous">
+    </script>
+     <footer>
+      <p>&copy; 2023 Tu Empresa. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
