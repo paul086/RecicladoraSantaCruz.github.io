@@ -1,14 +1,26 @@
+/* Modifica el boton get started*/
 .btn-main, .btn-main-s {
   padding: 0.25rem 1.5rem;
   border-radius: 0.25rem;
   background-color: #4BFE36;
   color: white;
-  border: solid 1px #4BFE36;
+  border: solid 0.5rem #4BFE36;
 }
+.home-description{
+  color: #0075FF;
+}
+.form-control{
+  color: #0075FF;
+}
+.lead-magnet{
+  color: #0075FF;
+}
+/* Modifica el main*/
 .btn-main:hover, .btn-main-s:hover {
   background-color: white;
   color: #4BFE36;
 }
+/* Modifica el boton get started*/
 .btn-main-s {
   font-size: 0.75rem;
   padding: 0.1rem 1rem;
@@ -17,13 +29,10 @@
 }
 h4{
   margin-left: 1.5rem;
+}
 
-}
-#videocentral{
-  margin-left:auto;
-}
 #imagenInfo{
-  margin-left: 25%;
+  margin-left: 10rem;
 }
 
 .btn-sec, .btn-sec-s {
@@ -47,6 +56,7 @@ h4{
 .btn-sec:hover, .btn-sec-s:hover {
   color: #888;
 }
+/*Boton Loguearse*/
 .btn-sec-s {
   font-size: 1 rem;
   padding: 0.1rem 1rem;
@@ -55,7 +65,7 @@ h4{
 }
 
 .main-menu {
-  margin-bottom: 0;
+  margin-bottom: 0 rem;
   font-size: 3 rem;
   
   
@@ -64,9 +74,10 @@ h4{
 .ratio {
   width: 40rem;
   height: 30rem;
-  padding: 10px 400px 10px;
+  padding: 3rem 25rem 3rem;
   margin: 4rem;
   margin-left: 25rem;
+  
 }
 
 .main-menu li {
@@ -83,13 +94,13 @@ h4{
 .main-menu li a:hover {
   text-decoration: underline;
 }
-
+/* Diseño de los tres iconos*/
 .icon-sm i {
   font-size: 1.25rem;
   padding: 0.4rem 0.65rem;
   color: #4BFE36;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 5rem;
+  box-shadow: 0 0 10px rgb(207, 52, 52);
 }
 
 .benefit {
@@ -104,6 +115,7 @@ h4{
 .benefit .description .title {
   font-size: 2rem;
   text-align: center;
+
 }
 .benefit .description .text {
   color: #888;
@@ -123,139 +135,166 @@ h4{
   align-items: center;
   justify-content: center;
 }
+/* Diseño de los iconos del footer*/
 .icon-desc i {
   color: #4BFE36;
-  font-size: 10rem;
-  padding: 0;
+  font-size: 9rem;
+  padding: 0rem;
 }
+/* Diseño del texto del footer*/
 .icon-desc .title {
+  color: #3647fe;
   margin-top: -1rem;
   font-size: 1.5rem;
   font-weight: 600;
 }
 
 html {
-  min-width: 100vw;
+  min-width: 10rem;
 }
-
+/* Diseño del menu*/
 body {
-  padding: 0;
-  margin: 0;
+  padding: 0.1rem;
+  margin: 0.1rem;
 }
-
+/* Diseño del menu*/
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100%;
+  width: 100rem;
   height: 4rem;
   border-bottom: solid 1px #ddd;
+  color: #3647fe;
 }
-
+/* Diseño del Logo*/
 .logo a img {
-  max-width: 3rem;
+  max-width: 3.5rem;
+  margin-left: 0.1rem;
   
 }
-
+/* Diseño de Noticias*/
 .sec-home {
   display: flex;
   align-items: center;
-  width: 100%;
-  max-width: 992px;
+  width: 100rem;
+  max-width: 70rem;
   margin: auto;
   padding: 3rem;
 }
+
 .sec-home .home-cta {
   flex: 1;
 }
+/* Diseño del titulo de Noticias*/
 .sec-home .home-cta .cta-text {
   color: #4BFE36;
 }
+/* Diseño del titulo Aún estas a tiempo de salvar el Mundo!!!*/
 .sec-home .home-cta .home-title {
   width: 20rem;
   font-size: 3rem;
   color: #4BFE36;
 }
 .sec-home .home-cta .home-description {
-  width: 300px;
+  width: 10rem;
 }
 .sec-home .home-cta .lead-magnet .input-col {
-  max-width: 200px;
+  max-width: 100%;
+  
 }
-
+/* Diseño del titulo Actividades realizadas*/
 .sec-features, .sec-onboarding .intro, .sec-benefits .intro {
-  width: 100%;
-  max-width: 992px;
+  color: #068a69;
+  width: 100rem;
+  max-width: 100%;
   margin: auto;
   padding: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
+/* Diseño del titulo Actividades realizadas*/
 .sec-features .intro, .sec-onboarding .intro .intro, .sec-benefits .intro .intro {
   text-align: center;
+  color: #4BFE36;
 }
+
 .sec-features .intro h3, .sec-onboarding .intro .intro h3, .sec-benefits .intro .intro h3 {
   font-size: 1.8rem;
 }
+/* Diseño del titulo En esta Empresa nos dedicamos al cuidado de la Naturaleza! Vos podes ayudarnos!*/
 .sec-features .intro p, .sec-onboarding .intro .intro p, .sec-benefits .intro .intro p {
   font-size: 0.8rem;
-  color: #888;
+  color: #068a69;
 }
+
 .sec-features .features, .sec-onboarding .intro .features, .sec-benefits .intro .features {
   display: flex;
   gap: 1rem;
   align-items: center;
 }
+
 .sec-features .features .text, .sec-onboarding .intro .features .text, .sec-benefits .intro .features .text {
   padding: 2rem 0;
   flex: 1;
 }
+
 .sec-features .features .text .feature, .sec-onboarding .intro .features .text .feature, .sec-benefits .intro .features .text .feature {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .sec-features .features .text .feature .description, .sec-onboarding .intro .features .text .feature .description, .sec-benefits .intro .features .text .feature .description {
   margin-left: 1rem;
   max-width: 20rem;
 }
+/* Diseño del titulo Descarga la App*/
 .sec-features .features .text .feature .description .description-title, .sec-onboarding .intro .features .text .feature .description .description-title, .sec-benefits .intro .features .text .feature .description .description-title {
   font-size: 1.15rem;
+  color: #068a69;
 }
+
 .sec-features .features .text .feature .description .description-text, .sec-onboarding .intro .features .text .feature .description .description-text, .sec-benefits .intro .features .text .feature .description .description-text {
   font-size: 1rem;
 }
+
 .sec-features .features .image img, .sec-onboarding .intro .features .image img, .sec-benefits .intro .features .image img {
-  max-width: 20rem;
+  max-width: 100%;
 }
 
 .sec-benefits {
   border-top: 1px solid #ddd;
 }
+
 .sec-benefits .benefit-cards {
   width: 100%;
   padding: 0 2rem 2rem 2rem;
 }
-
+/* Diseño de la banda azul*/
 .sec-kpis {
   width: 100%;
   background-color: #0075FF;
   color: white;
   padding: 4rem;
 }
+
 .sec-kpis .kpi {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .sec-kpis .kpi .number {
   font-size: 3.5rem;
   font-weight: 600;
 }
+
 .sec-kpis .kpi .desc {
   font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.6666666667);
+  color: #a60e69;
 }
 
 .sec-onboarding .steps {
@@ -263,6 +302,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #068a69;
 }
 .sec-onboarding .steps .step-separator {
   flex: 1;
@@ -287,35 +327,129 @@ body {
   font-size: 1.1rem;
 }
 
-@media (max-width: 768px) {
-  .sec-onboarding .steps {
-    flex-direction: column;
+
+
+@media (max-width: 330px) {
+  body{
+   margin: auto;
+   top: 0;
   }
-  .sec-onboarding .steps .icon-desc .title {
-    text-align: center;
+  /* Menu*/
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 3rem;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    color: rgb(54, 71, 254);
+    flex-wrap: nowrap;
+}
+  .logo a img {
+      max-width: 3rem;
+      margin: auto;
+  }
+  img, svg {
+      vertical-align: middle;
   }
 
-  .sec-footer-cta {
-    background-image: none;
-  }
-  .sec-footer-cta .footer-cta {
-    width: 100%;
-    text-align: center;
-  }
-
-  .sec-benefits .intro {
-    text-align: center;
-  }
-  .sec-benefits .intro h3 {
-    font-size: 2rem;
-  }
-
-  .sec-features .intro h3, .sec-benefits .intro .intro h3, .sec-onboarding .intro .intro h3 {
-    font-size: 2rem;
-  }
-  .sec-features .intro p, .sec-benefits .intro .intro p, .sec-onboarding .intro .intro p {
-    font-size: 1rem;
-  }
+  .d-none {
+     display:grid;   
+}
+.btn-main-s {
+  font-size: 0.5rem;
+  padding: 0.1rem 1rem;
+  background-color: rgb(75, 254, 54);
+  border-color: rgb(75, 254, 54);
+}
+.btn-main, .btn-main-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: rgb(75, 254, 54);
+  color: white;
+  border: 0.5rem solid rgb(75, 254, 54);
+}
+.btn-sec-s {
+  padding: 0.1rem 1rem;
+  font-size: 0.5rem;
+}
+.ratio>* {
+  position: fixed;
+  padding: 8rem 0.5rem 1rem 1rem;
+  top: 0;
+  left: 0;
+  width: 24%;
+  max-width: 100%;
+  height: 20%;
+  /* margin-left: 0; */
+}
+.sec-home .home-cta{
+  color: #4BFE36;
+  font-size: 0.9rem;
+  padding: 1rem 0.1rem 2rem 0rem;
+}
+.sec-home .home-cta .cta-text {
+  color: #4BFE36;
+  font-size: 0.9rem;
+  padding: 1rem 0.1rem 2rem 0rem;
+}
+.sec-home .home-cta .home-title {
+  width: 100%;
+  font-size: 1.5rem;
+  color: #4BFE36;
+}
+.sec-home .home-cta .home-description {
+  width: 100%;
+  font-size: 1rem;
+}
+.sec-home {
+  display: flex;
+  align-items: center;
+  width: 100%; 
+  max-width: 100%;
+   margin: 0;
+   padding: 0rem;
 }
 
-/*# sourceMappingURL=styles.css.map */
+.sec-features, .sec-onboarding .intro, .sec-benefits .intro {
+    color: #068a69;
+    width: 100rem;
+    max-width: 100%;
+    margin: auto;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-features .features, .sec-onboarding .intro .features, .sec-benefits .intro .features {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+}
+.sec-features .intro, .sec-onboarding .intro .intro, .sec-benefits .intro .intro {
+  text-align: center;
+  color: #4BFE36;
+}
+.sec-features .intro h3, .sec-onboarding .intro .intro h3, .sec-benefits .intro .intro h3 {
+  font-size: 1.5rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.sec-features .intro p, .sec-onboarding .intro .intro p, .sec-benefits .intro .intro p {
+  font-size: 0.8rem;
+  color: #068a69;
+}
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Diseño de los iconos del footer*/
+.icon-desc i {
+  color: #4BFE36;
+  font-size: 0.1rem;
+  padding: 0rem;
+  width: 1rem;
+}
+}
